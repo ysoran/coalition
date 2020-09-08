@@ -12,6 +12,4 @@ docker stop dbcontainer<br />
 docker rm $(docker ps -aq)<br />
 docker rmi $(docker images -q)<br /><br />
 
-node_modules are not added to .gitignore on purpose, just in case.
-
 yasar soran
