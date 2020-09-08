@@ -9,4 +9,6 @@ docker rm $(docker ps -aq)
 # Delete all images
 docker rmi $(docker images -q)
 
+node_modules are not added to .gitignore on purpose, just in case.
+
 yasar soran
