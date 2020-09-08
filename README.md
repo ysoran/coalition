@@ -1,5 +1,7 @@
 # Initialize project
+node.js, python, flask, should be available on your machiene
 please run ./init.sh where is located in coalition-python folder to start using.<br /><br />
+
 
 # Some notes
 there is an apikey that you need to provide, please change the expired api-key with your own up-to-date api key in ".env" file which is located on the /coalition-react root folder, the key name is REACT_APP_GEO_KEY.<br />
