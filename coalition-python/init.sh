@@ -12,4 +12,5 @@ done
 
 python3 app.py &
 cd "./../coalition-react"
+yarn
 yarn start 
