@@ -1,13 +1,16 @@
 # Initialize project
-node.js, python, flask, should be available on your machiene
+node.js, python, flask, docker should be available on your machiene
 please run ./init.sh where is located in coalition-python folder to start using.<br /><br />
 
+# Update
+with this update you will need only docker installed on your local machiene
+if you are using a mac please run ./init_with_install.sh to install all required packages 
 
 # Some notes
 there is an apikey that you need to provide, please change the expired api-key with your own up-to-date api key in ".env" file which is located on the /coalition-react root folder, the key name is REACT_APP_GEO_KEY.<br />
 for api key: https://developer.here.com/products/geocoding-and-search<br /><br />
 
-if you face any problems during initialization process run following commands on your terminal and run "./init.sh" again.<br />
+if you face any problems during initialization or you get any network on frontend please run following commands on your terminal and run "./init.sh" again.<br />
 docker stop dbcontainer<br />
 docker rm $(docker ps -aq)<br />
 docker rmi $(docker images -q)<br /><br />
